@@ -222,6 +222,7 @@ If you use Airbyte Cloud and your organization restricts access to specific IPs,
 
 | Version    | Date       | Pull Request                                             | Subject                                                                                                                                                                |
 |:-----------|:-----------|:---------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 5.6.11 | 2026-07-13 | [74334](https://github.com/airbytehq/airbyte/pull/74334) | Increase analytics campaign batch size from 20 to 50 to reduce request count. |
 | 5.6.10 | 2026-06-01 | [74334](https://github.com/airbytehq/airbyte/pull/74334) | Improve analytics stream performance with batched campaign requests and harden data-volume rate-limit handling. |
 | 5.6.9 | 2026-04-21 | [73947](https://github.com/airbytehq/airbyte/pull/73947) | Update dependencies |
 | 5.6.8 | 2026-04-07 | [76120](https://github.com/airbytehq/airbyte/pull/76120) | Fix dynamic stream name field_path to avoid parent stream name collision |
